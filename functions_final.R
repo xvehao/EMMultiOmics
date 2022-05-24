@@ -200,3 +200,20 @@ NEG_em=function(Y,G,C,a0,gstr,Zmatrix,mypath){
   lst=list(b=bbk,beta=betak,k=kkk,a=a,g=g)
   return(lst)
 }
+rsq <- function(x, y) summary(lm(y~x))$r.squared
+cindx = function(pred,actual){
+  phi = 0
+  phi_pred = 0
+  n_input = length(actual)
+  for (ci in 1:n_input){
+    for (cj in 1:n_input){
+      if (actual[ci]>actual[cj]){
+        phi=phi+1
+        if (pred[ci]>pred[cj]){
+          phi_pred=phi_pred+1
+        }
+      }
+    }
+  }
+  return(phi_pred/phi)
+}
