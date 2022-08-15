@@ -5,6 +5,6 @@ Due to advance of biomedical technologies, it has become prevalent to collect bi
 This repo consists of:
 (1) the main function: main.R, which is the main script used for real data analysis; 
 
-(2) the auxillary functions: functions_final.R, which harbors all the functions used in (1), and lpcf.py, a function used in the second stage model；
+(2) the ancillary functions: functions_final.R, which harbors all the functions used in (1), and lpcf.py, a function used in the second stage model；
 
-(3) the data used in paper: GBM_data2.RData, which consists of gene expression and DNA methylation data of GBM patients collected by Network, C. G. A. R. et al. (2008). Comprehensive genomic characterization de nes human glioblastoma genes and core pathways. Nature 455, 1061. and Brennan, C. W., Verhaak, R. G., McKenna, A., Campos, B., Noushmehr, H., Salama, S. R., Zheng, S., Chakravarty, D., Sanborn, J. Z., Berman, S. H., et al. (2013). The somatic genomic landscape of glioblastoma. Cell 155, 462-477.
+(3) the data used in paper: GBM_data2.RData, which consists of gene expression and DNA methylation data of GBM patients collected by Network, C. G. A. R. et al. (2008). Comprehensive genomic characterization defines human glioblastoma genes and core pathways. Nature 455, 1061. and Brennan, C. W., Verhaak, R. G., McKenna, A., Campos, B., Noushmehr, H., Salama, S. R., Zheng, S., Chakravarty, D., Sanborn, J. Z., Berman, S. H., et al. (2013). The somatic genomic landscape of glioblastoma. Cell 155, 462-477.
